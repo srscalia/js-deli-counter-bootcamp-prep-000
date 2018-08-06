@@ -20,7 +20,7 @@ function currentLine(katzDeli) {
   } else {
     var message = [];
     while (var i = 0; i < katzDeli.length; i++) {
-      message.push(` ${index+1}. ${katzDeli[index]}`);
+      message.push(` ${i+1}. ${katzDeli[i]}`);
     }
     return `The line is currently:${message}`;
   }
